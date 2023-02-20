@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Shogun",
+      "author": "James Clavell"
+    },
+    {
+      "id": 2,
+      "title": "the Witcher",
+      "author": "Andrzej Sapkowski"
+    },
+    {
+      "title": "asd",
+      "author": "asd",
+      "id": 3
+    },
+    {
+      "title": "asd",
+      "author": "asd",
+      "id": 4
+    },
+    {
+      "title": "asd",
+      "author": "asd",
+      "id": 5
+    },
+    {
+      "title": "asdadada",
+      "author": "asdasda",
+      "id": 6
+    }
+  ]
+}

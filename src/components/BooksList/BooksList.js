@@ -1,11 +1,13 @@
 import { useSelector, useDispatch } from 'react-redux';
+import { removeBookRequest } from '../../redux/booksRedux';
+import { getAllBooks } from '../../redux/booksRedux';
 
 const BooksList = () => { //zamiast props i potrem props.books.map mona zrobić tak jak tutaj
-  const books = useSelector(state => state.books)
+  const books = useSelector(getAllBooks)
   const dispatch = useDispatch();
 
   const handleClick = bookId => {
-    dispatch({ type: 'REMOVE_BOOK', payload: bookId });
+    dispatch(removeBookRequest(bookId));
   }
 
   return (
